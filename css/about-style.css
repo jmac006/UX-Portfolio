@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:Light,Regular,Bold,Black);
+
+
+body {
+	font-family: Muli;
+	position: relative;
+	background: #F1F6F5;
+	color: white;
+}
+
+.navbar .navlink {
+	font-family: Muli;
+	font-weight: Light;
+	text-align: left;
+	color: #001747;
+	padding-left: 50px;
+	margin-right: 50px;
+	font-size: 0.9em;
+	text-decoration: none
+}
+
+.homebutton {
+	padding: 5px;
+	display: inline-block;
+}
+.nav-wrap {
+	display: inline-block;
+	margin: 10px;
+	float: right;
+}
+
+#home-logo {
+	font-family: Muli;
+	font-weight: Bold;
+	text-align: left;
+	color: #001747;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+.about-intro h1 {
+	font-family: Muli;
+	font-weight: Black;
+	font-size: 3em;
+	text-align: left;
+	color: #001747;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+body h3 {
+	font-family: Muli;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: right;
+	color: #001747;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+.case-study-div p {
+	width: 70%;
+}
+
+.intro .button {
+  background-color: #001747;
+  font-family: Muli;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  font-size: 0.9em;
+  margin-right: 50px;
+}
+
+.intro {
+	position: static;
+	height: 50vh;
+}
+
+#trapezoid {
+    position: static;
+	top: 200px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 60vh;
+	perspective: 300px
+	background-color: #001747;
+	transform: skewY(-6deg);
+	transform-origin: top right;
+}
+
+.case-study-div {
+	position: static;
+	background-color: #001747;
+	padding: 50px;
+	margin: 50px;
+	margin-bottom: 12%;
+	border-radius: 10px;
+}
+
+.case-study-div h1 {
+	font-family: Muli;
+	font-weight: Black;
+	font-size: 3em;
+	text-align: left;
+	color: white;
+	margin-top: 0px;
+}
+
+.aryve-case {
+	position: relative;
+}
+
+.aryve-case img {
+	position: absolute;
+    height: 200%;
+    right: 0;
+    top: -50%;
+}
+
+.case-button {
+  background-color: #FF9896;
+  font-family: Muli;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-right: 50px;
+}
