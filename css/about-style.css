@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:Light,Regular,Bold,Black);
 
-
+html, body {
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-family: Muli;
-	position: relative;
+	position: static;
 	background: #F1F6F5;
-	color: white;
 }
 
 .navbar .navlink {
@@ -39,6 +41,9 @@ body {
 	margin-left: 50px;
 }
 
+.about-intro {
+	margin-left: 50px;
+}
 .about-intro h1 {
 	font-family: Muli;
 	font-weight: Black;
@@ -49,6 +54,16 @@ body {
 	padding-right: 50px;
 }
 
+.about-intro p {
+	font-family: Muli;
+	font-weight: Regular;
+	width: 50%;
+	font-color: #001747;
+	font-size: 1em;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
 body h3 {
 	font-family: Muli;
 	font-weight: 400;
@@ -57,10 +72,6 @@ body h3 {
 	color: #001747;
 	padding-top: 20px;
 	padding-right: 50px;
-}
-
-.case-study-div p {
-	width: 70%;
 }
 
 .intro .button {
@@ -83,58 +94,57 @@ body h3 {
 	height: 50vh;
 }
 
-#trapezoid {
-    position: static;
-	top: 200px;
-	left: 0px;
-	right: 0px;
-	width: 100%;
-	height: 60vh;
-	perspective: 300px
-	background-color: #001747;
-	transform: skewY(-6deg);
-	transform-origin: top right;
-}
-
-.case-study-div {
+img {
 	position: static;
-	background-color: #001747;
-	padding: 50px;
-	margin: 50px;
-	margin-bottom: 12%;
-	border-radius: 10px;
+	width: 100%;
+	height: 20%;
 }
 
-.case-study-div h1 {
-	font-family: Muli;
-	font-weight: Black;
-	font-size: 3em;
-	text-align: left;
-	color: white;
-	margin-top: 0px;
+.line-div-background {
+	background-image: url('../images/line-path.png');
+	width: 100%;
+	height: 500px;
 }
 
-.aryve-case {
-	position: relative;
+.social-icons {
+	display: flex;
+	padding-right: 50px;
+	/*width: 30%;*/
 }
 
-.aryve-case img {
-	position: absolute;
-    height: 200%;
-    right: 0;
-    top: -50%;
+.insta {
+	background-image: url('../images/insta-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: auto;
+	margin: 25px;
 }
 
-.case-button {
-  background-color: #FF9896;
-  font-family: Muli;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 0.9em;
-  margin-right: 50px;
+.email {
+	background-image: url('../images/email-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 25px;
+	margin-left: 0px;
+	margin: 25px 25px 25px 0;
+}
+
+.dribbble {
+	background-image: url('../images/dribbble-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+}
+
+.linkedin {
+	background-image: url('../images/linkedin-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin: 25px;
 }
