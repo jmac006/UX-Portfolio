@@ -173,12 +173,13 @@ img {
 
 .line-div-background h1 {
 	color: white;
-	padding-top: 14%;
+	padding-top: 10%;
 	text-align: center;
 }
 
 .grid {
 	display: grid;
+	align-items: center;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-areas: "marketing software"
@@ -220,7 +221,7 @@ img {
 .grid-content {
 	display: flex;
 	z-index: 2;
-	margin: 25px 50px 25px 50px;
+	margin: 5% 10% 5% 20%;
 	color: white;
 }
 
