@@ -218,8 +218,13 @@ img {
 }
 
 .grid-content {
+	display: flex;
 	z-index: 2;
-	border: 1px solid red;
 	margin: 25px 50px 25px 50px;
 	color: white;
+}
+
+.skills {
+	flex-direction: column;
+	margin-left: 25px;
 }
