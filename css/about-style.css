@@ -182,11 +182,10 @@ img {
 .grid {
 	display: grid;
 	align-items: center;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-areas: "marketing software"
-						"ux app"
-						"motion threeD";
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "aryve beer vacf"
+						"wonsulting ftc cookpad";
 }
 
 #marketing-content {
@@ -217,7 +216,26 @@ img {
 
 #threeD-content {
 	grid-area: threeD;
+}
 
+#aryve-case {
+	grid-area: aryve;
+}
+
+#beer-case {
+	grid-area: beer;
+}
+
+#wonsulting-case {
+	grid-area: wonsulting;
+}
+
+#ftc-case {
+	grid-area: ftc;
+}
+
+#cookpad-case {
+	grid-area: cookpad;
 }
 
 .grid-content {
@@ -230,4 +248,20 @@ img {
 .skills {
 	flex-direction: column;
 	margin-left: 25px;
+}
+
+.projects h1 {
+	text-align: center;
+	font-size: 3em;
+	color: #001747;
+
+}
+
+.project-grid {
+	display: flex;
+	outline: 1px solid blue;
+	height: 100%;
+	z-index: 2;
+	margin: 20%;
+	color: white;
 }
